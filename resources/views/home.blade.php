@@ -48,8 +48,6 @@
       x-transition:enter="transition ease-out duration-300"
       x-transition:enter-start="opacity-0 scale-90"
       x-transition:enter-end="opacity-100 scale-100"
-
-
     >
       <!--To-do's laten zien-->
       <livewire:toontodo/>

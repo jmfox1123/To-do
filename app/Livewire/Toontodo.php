@@ -1,10 +1,8 @@
 <?php
-
 namespace App\Livewire;
 
 use Livewire\Component;
 use App\Models\todo;
-
 
 class Toontodo extends Component
 {
