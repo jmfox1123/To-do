@@ -1,5 +1,5 @@
 <div class="w-4/5">
-    <table class="border border-2 border-black">
+    <table class="border-2 border-black">
         <!--To-do's ophalen uit db-->
         @foreach($todo as $todos) 
             <!--laat dit zien als de to-do niet is afgerond-->
