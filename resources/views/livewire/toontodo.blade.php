@@ -1,12 +1,11 @@
-<div>
+<div class="w-4/5">
     <table>
-        <ul>
         <!--To-do's ophalen uit db-->
         @foreach($todo as $todos) 
             <!--laat dit zien als de to-do niet is afgerond-->
             @if($todos->Gedaan == NULL)
                 <tr class="border-b-2 border-black rounded">
-                    <td class="w-full pl-4">
+                    <td class="pl-4">
                         {{$todos->Todo}}
                     </td>
                     <td class="">

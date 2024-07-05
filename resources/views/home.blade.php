@@ -9,15 +9,15 @@
 <body>
   @livewireScripts
   <div  x-data="{isActive:0}" class="flex">
-    <div class= "bg-gray-800 h-screen text-white w-24 p-4 fixed">
+    <div class= "bg-gray-800 h-screen text-white w-24 p-4 fixed ">
       <!--form div verbergen tot er op de knop geklikt wordt-->
       <div>
-        <button class=" absolute bg-orange-600 p-4 rounded-full hover:bg-orange-700 transition-all " x-on:click="isActive = 0">
+        <button class="bg-orange-600 p-4 rounded-full hover:bg-orange-700 transition-all " x-on:click="isActive = 0">
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
             <path stroke-linecap="round" stroke-linejoin="round" d="m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
           </svg> 
         </butto>
-        <button class=" absolute bg-green-600 p-4 rounded-full hover:bg-green-700 transition-all mt-16"  x-on:click="isActive = 1">
+        <button class="bg-green-600 p-4 rounded-full hover:bg-green-700 transition-all mt-5"  x-on:click="isActive = 1">
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
             <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
           </svg>
@@ -25,14 +25,14 @@
       </div>
     </div>
     <div 
-      class="container p-5 ml-24 flex flex-col items-center" 
+      class=" p-5 flex flex-col items-center  w-full" 
       x-show="isActive === 1" 
     >
           <!--Form ophalen vanuit de nieuwetodo blade-->
           <livewire:nieuwtodo/>
     </div>
     <div 
-      class="container p-5 ml-24 " 
+      class=" p-5 w-full flex flex-col items-center  " 
       x-show="isActive === 0" 
     >
     <!--To-do's laten zien-->
