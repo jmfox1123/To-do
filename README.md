@@ -14,7 +14,7 @@ om mijn To-do uit te voeren doe het volgende
 
 Verslag Van opdracht:
 
-aller eerst wat een leuke opdracht om uit te voeren! lekker terug naar de basis met wat nieuwe technieken!
+Aller eerst wat een leuke opdracht om uit te voeren! lekker terug naar de basis met wat nieuwe technieken!
 Omdat ik nog niet eerder met Livewire gewerkt had was het erg interessant om daar nu ook kennis van op te kunnen doen,
 Het uitzoeken hoe ik de data in de database kon pushen en er weer uit kon halen was hierin erg leerzaam! Qua code is het niet heel anders zeker aanzienlijk korter in het uitschrijven. Hierin heb ik uiteindelijk besloten om 2 lose Livewire componenten te gaan maken 1 voor het posten in de database en 1 voor het ophalen en updaten van de data . 
 Dit had in 1 component gekund maar aangezien ik met Alpine 2 “tabbladen” wilde maken leek mij dit een mooiere oplossing.
