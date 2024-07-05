@@ -5,7 +5,7 @@
             <!--laat dit zien als de to-do niet is afgerond-->
             @if($todos->Gedaan == NULL)
                 <tr class="border-b-2 border-black">
-                    <td class="pl-4">
+                    <td class="pl-4 w-full">
                         {{$todos->Todo}}
                     </td>
                     <td class="">
