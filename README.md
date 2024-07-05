@@ -1,16 +1,16 @@
 om mijn To-do uit te voeren doe het volgende 
-1.  pull mijn git repo
-2.  voer de volgende comando's uit in de terminal
+1.  Pull mijn git repo
+2.  Voer de volgende comando's uit in de terminal
 -   npm install
 -   composer install
-3.  verander de naam van de .env.example naar .env
-4.  voer de volgende comando's uit in de terminal
+3.  Verander de naam van de .env.example naar .env
+4.  Voer de volgende comando's uit in de terminal
 -   php artisan key:generates
 -   php artisan migrate
 -   php artisan serve
-5.  open een 2e terminal venster en draai daar het volgende comando
+5.  Open een 2e terminal venster en draai daar het volgende comando
 -   npm run dev
-6.  ga naat 127.0.0.1:8000 en bekijk en gebruik de pagina
+6.  Ga naat 127.0.0.1:8000 en bekijk en gebruik de pagina
 
 Verslag Van opdracht:
 
