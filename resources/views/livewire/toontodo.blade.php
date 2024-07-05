@@ -40,4 +40,3 @@
         @endforeach
     </table>
 </div>
-

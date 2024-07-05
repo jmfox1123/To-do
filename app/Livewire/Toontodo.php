@@ -8,8 +8,6 @@ use App\Models\todo;
 
 class Toontodo extends Component
 {
-    public $search = '';
-
     public function render()
     {
         return view('livewire.toontodo',[

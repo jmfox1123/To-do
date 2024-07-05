@@ -8,9 +8,9 @@
 </head>
 <body>
   @livewireScripts
+  <!--toon alleen de div met het juiste nummer-->
   <div  x-data="{isActive:0}" class="flex">
     <div class= "bg-gray-800 h-screen text-white w-24 p-4 fixed ">
-      <!--form div verbergen tot er op de knop geklikt wordt-->
       <div>
         <button class="bg-orange-600 p-4 rounded-full hover:bg-orange-700 transition-all " x-on:click="isActive = 0">
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
@@ -28,14 +28,14 @@
       class=" p-5 flex flex-col items-center  w-full" 
       x-show="isActive === 1" 
     >
-          <!--Form ophalen vanuit de nieuwetodo blade-->
-          <livewire:nieuwtodo/>
+      <!--Form ophalen vanuit de nieuwetodo blade-->
+      <livewire:nieuwtodo/>
     </div>
     <div 
       class=" p-5 w-full flex flex-col items-center  " 
       x-show="isActive === 0" 
     >
-    <!--To-do's laten zien-->
+      <!--To-do's laten zien-->
       <livewire:toontodo/>
     </div>
   </div>

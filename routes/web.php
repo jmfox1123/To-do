@@ -9,10 +9,3 @@ Route::get('/', function () {
         'todo'=> $todo
     ]);
 });
-
-Route::delete('/todo/{id}', function (todo $id) {
-    
-    $id->delete();
- 
-    return redirect('/');
-});

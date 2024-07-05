@@ -1,4 +1,3 @@
-
 <div >
     <!--form voor submitten van taak-->
     <form class="flex flex-col items-center w-96" wire:submit="save">
@@ -9,4 +8,3 @@
 
     </form>  
 </div>
-
