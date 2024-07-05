@@ -19,11 +19,12 @@ Omdat ik nog niet eerder met Livewire gewerkt had was het erg interessant om daa
 Het uitzoeken hoe ik de data in de database kon pushen en er weer uit kon halen was hierin erg leerzaam! Qua code is het niet heel anders maar zeker aanzienlijk korter in het uitschrijven. Hierin heb ik uiteindelijk besloten om 2 lose Livewire componenten te gaan maken 1 voor het posten in de database en 1 voor het ophalen en updaten van de data . \
 Dit had in 1 component gekund maar aangezien ik met Alpine 2 “tabbladen” wilde maken leek mij dit een mooiere oplossing.\
 \
-Dan komen we bij Alpine.js.\
+De andere techniek waar ik niet zo veel ervaring mee had is Alpine.js.\
 Hierbij had ik in eerste instantie een hidden popup gemaakt voor het aanmaken van een nieuwe taak die je kon oproepen door op de plus knop te klikken in de sidebar.\
 Dit was opzich een prima oplossing om niet constant het form in beeld te hebben. Echter vond ik het er niet zo strak uit zien.\
 Uiteindelijk heb ik besloten om met tabjes te gaan werken en daarbij een menu bar. Door op het plusje te klikken verdwijnt nu de tabel met de taken en door op het huisje te klikken verdwijnt het form weer. Dit leek mij een prachtige oplossing.\
 Hierbij was het erg interessant om met de x-data en x-show te werken om dit voor elkaar te krijgen.\
+Ook was het leuk om wat transities mogelijk te maken met x-transition\
 \
 Even later kwam ik er achter dat mijn pagina er niet geweldig uitzag op 1080p wat toch wel erg belangrijk is aangezien de meeste schermen 1080p zijn. Hier heb ik nog even wat dingen in de classes met tailwind gewijzigd om het er aanzienlijk beter uit te laten zien.\
 \
