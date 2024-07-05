@@ -1,10 +1,10 @@
 <div class="w-4/5">
-    <table>
+    <table class="border border-2 border-black">
         <!--To-do's ophalen uit db-->
         @foreach($todo as $todos) 
             <!--laat dit zien als de to-do niet is afgerond-->
             @if($todos->Gedaan == NULL)
-                <tr class="border-b-2 border-black rounded">
+                <tr class="border-b-2 border-black">
                     <td class="pl-4">
                         {{$todos->Todo}}
                     </td>
@@ -23,7 +23,7 @@
                 </tr>
                 <!--laat dit zien als de to-do is afgerond-->
             @else
-                <tr class="bg-green-400 border-b-2 border-black w-full">
+                <tr class="bg-green-400 border-b-2 border-black">
                     <td class="line-through pl-4 w-full">
                         {{$todos->Todo}}
                     </td>
