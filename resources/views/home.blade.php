@@ -14,8 +14,8 @@
       <div>
         <button 
           x-on:click="isActive = 0" 
-          :class="{'rounded-xl bg-orange-400 hover:bg-orange-400' : isActive === 0}"
-          class="p-4 mr-4 transition-all bg-orange-600 rounded-full hover:bg-orange-700" 
+          :class="{'rounded-xl bg-orange-400 hover:bg-orange-400' : isActive === 0 , 'bg-orange-600 rounded-full hover:bg-orange-700' : isActive ==! 0}"
+          class="p-4 mr-4 transition-all" 
         >
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
             <path stroke-linecap="round" stroke-linejoin="round" d="m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
@@ -23,8 +23,8 @@
         </button>
         <button 
           x-on:click="isActive = 1"
-          :class="{'rounded-xl bg-green-300 hover:bg-green-300' : isActive === 1}"
-          class="p-4 transition-all bg-green-600 rounded-full hover:bg-green-700"  
+          :class="{'rounded-xl bg-green-300 hover:bg-green-300' : isActive === 1 , 'bg-green-600 rounded-full hover:bg-green-700' : isActive ==! 1}"
+          class="p-4 transition-all"  
         >
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
             <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
