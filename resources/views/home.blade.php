@@ -23,7 +23,7 @@
         </button>
         <button 
           x-on:click="isActive = 1"
-          :class="{'rounded-xl bg-green-300 hover:bg-green-300' : isActive === 1 , 'bg-green-600 rounded-full hover:bg-green-700' : isActive ==! 1}"
+          :class="{'rounded-xl bg-green-400 hover:bg-green-400' : isActive === 1 , 'bg-green-600 rounded-full hover:bg-green-700' : isActive ==! 1}"
           class="p-4 transition-all"  
         >
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
